@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url("imagem.jpg");
+    background-color: #474A51;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+#cabecalho{
+    background-color:rgba(135, 206, 250, 0.8);
+    width: 50%;
+    margin:0 auto;
+    border-radius: 10px;
+    
+}
+
+#titulo{
+    margin-top: 50px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#subtitulo{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form{
+    background-color: rgba(135, 206, 250, 0.5);
+    width: 50%;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+
+input, select, textarea{
+    width: 575px;
+    height: 20px;
+    margin-left: 50px;
+    border-radius: 10px;  
+}
+
+textarea{
+    height: 80px;
+}
+
+#nome, #email, #idade, #sobre, #senior, #tec, #funcao{
+    margin-left: 50px;
+    font-family:sans-serif;
+}
+
+.botao{
+    width: 575px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+#check input[type="checkbox"]{
+    margin-left: -225px;
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6 {
+    margin-left: -275px;
+}
+
+.botao{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: springgreen;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px rgba(0, 255, 0, 0.5);
+    text-shadow: none;
+    height: 30px;
+}
+
+#radio {
+    display:grid;
+    margin-left: -275px;
+}
+
+#r1, #r2, #r3{
+    margin-left: -275px;
+    font-family: sans-serif;
+}
+
+
+
+
